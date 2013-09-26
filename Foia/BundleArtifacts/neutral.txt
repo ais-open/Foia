@@ -1,0 +1,1 @@
+MainPackage=C:\Projects\Foia\Foia\bin\Debug\Foia_1.1.0.0_Bundle\Foia_1.1.0.0_AnyCPU_Debug.appx

@@ -1,0 +1,1279 @@
+﻿* {
+	margin: 0px; 
+    padding: 0px; 
+    border: 0px currentColor; 
+    /*border-image: none;*/
+}
+
+html {
+	background: rgb(18, 27, 38);
+}
+
+body {
+	font: 14px/normal Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif normal; 
+    color: rgb(51, 51, 51); 
+    font-size-adjust: none; 
+    font-stretch: normal;
+}
+
+#background {
+	background: url("../images/bg-grad.png") repeat-x left top;
+    /*width: 1500px;*/
+}
+
+#container {
+	background: url("../images/bg-grad.png") repeat-x left top; 
+    margin: 0px auto; 
+    width: 960px; 
+    display: block;
+}
+
+.skip {
+	left: -10000px; 
+    width: 1px; 
+    height: 1px; 
+    overflow: hidden; 
+    position: absolute;
+}
+
+#header {
+	background: url("../images/bg-header.png") repeat-x 0px 0px; 
+    margin: 0px; 
+    padding: 0px; 
+    height: 70px;
+}
+
+#headNav {
+	margin: 0px; 
+    padding: 0px; 
+    width: 960px; 
+    height: 69px; 
+    font-family: Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-weight: normal;
+}
+
+#headPopupNav {
+	margin: 0px; 
+    padding: 0px; 
+    width: 960px; 
+    height: 100px; 
+    font-family: Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-weight: normal;
+}
+
+#headNav img {
+	margin: 0px; 
+    padding: 0px;
+}
+
+#headNav ul {
+	margin: 0px 0px 0px 693px; 
+    list-style-type: none;
+}
+
+#headNav li {
+	display: inline;
+}
+
+#headNav li a {
+	margin: 18px 0px 0px 30px; 
+    padding: 0px 0px 20px; 
+    color: rgb(255, 255, 255); 
+    float: left; 
+    display: block;
+}
+
+#headNav li a:hover {
+	text-decoration: underline;
+}
+
+#tabs {
+	font: 16px/normal Georgia, "Times New Roman", Times, serif; 
+    margin: 0px; 
+    padding: 0px; 
+    height: 48px; 
+    color: rgb(255, 255, 255); 
+    font-size-adjust: none; 
+    font-stretch: normal;
+}
+
+#tabnav {
+	width: 950px; 
+    margin-left: 10px; 
+    float: left;
+}
+
+#tabnav ul {
+	list-style-type: none;
+}
+
+#tabnav li {
+	display: inline;
+}
+
+#tabnav li a {
+	height: 48px; color: rgb(255, 255, 255); 
+    text-decoration: none; 
+    float: left; 
+    display: block;
+}
+
+#tabnav li a {
+	background: url("../img/tab_off.png") no-repeat 0px 0px; 
+    width: 150px;
+}
+
+#tabnav li a:hover {
+	background: url("../img/tab_hover.png") no-repeat 0px 0px; 
+    color: rgb(255, 255, 255);
+}
+
+#tabnav li.on a {
+	background: url("../img/tab_on.png") no-repeat 0px 0px; 
+    color: rgb(18, 27, 38);
+}
+
+#tabnav li a p {
+	margin: 21px 0px 0px; 
+    text-align: center;
+}
+
+#usfoia {
+	height: 38px;
+}
+
+div.headerText {
+	color: rgb(255, 255, 255); 
+    padding-top: 12px; 
+    padding-right: 20px; 
+    font-family: Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    font-size: 14px; 
+    font-style: italic; 
+    font-weight: bold; 
+    float: left; 
+    display: block;
+}
+
+div.headerText a {
+	color: rgb(255, 255, 255); 
+    font-style: normal; 
+    text-decoration: underline;
+}
+
+.clear {
+	clear: both;
+}
+
+ol {
+	list-style-type: decimal; 
+    list-style-position: inside;
+}
+
+ol li {
+	margin: 10px 0px;
+}
+
+ol li:hover {
+	background: rgb(255, 255, 205);
+}
+
+ol li a {
+	margin: 0px 0px 0px 5px; 
+    font-weight: bold;
+}
+
+a {
+	color: rgb(51, 102, 153); 
+    text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+hr {
+	height: 1px; 
+    color: rgb(248, 248, 248); 
+    border-bottom-color: rgb(222, 222, 222); 
+    border-bottom-width: 1px; 
+    border-bottom-style: solid; 
+    background-color: rgb(248, 248, 248);
+}
+
+#main {
+	background: rgb(255, 255, 255);
+}
+
+#content {
+	padding: 20px 0px 10px;
+}
+
+#content h2 {
+	margin: 20px 0px 25px; 
+    font-size: 18px; 
+    font-weight: bold;
+}
+
+#content h2 img {
+	margin: 0px 0px 0px 30px;
+}
+
+#subLeft {
+	padding: 0px 30px 0px 0px; 
+    width: 200px; 
+    float: left;
+}
+
+.narrower#subLeft {
+	width: 120px;
+}
+
+#subNav {
+	font: bold 13px/normal Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    margin: 0px 0px 0px 28px; 
+    width: 180px; 
+    list-style-type: none; 
+    font-size-adjust: none; 
+    font-stretch: normal;
+}
+
+.narrower#subNav {
+	width: 100px;
+}
+
+#subNav li a {
+	background: url("../img/subnav-bg.jpg") repeat-x 0px 0px; 
+    padding: 14px 10px; 
+    height: 10px; 
+    color: rgb(101, 101, 101); 
+    display: block;
+}
+
+#subNav li.on a {
+	background: rgb(255, 255, 255); 
+    border: 1px solid rgb(81, 162, 202); 
+    color: rgb(51, 102, 153);
+}
+
+#subNav li a:hover {
+	background: rgb(255, 255, 205); 
+    color: rgb(51, 102, 153); 
+    text-decoration: none;
+}
+
+#subRight {
+	padding: 0px 28px 30px 0px; 
+    width: 700px; 
+    float: right;
+}
+
+.wider#subRight {
+	width: 780px;
+}
+
+#subPlain {
+	padding: 0px 28px 30px;
+}
+
+#subRight h1 {
+	font: bold 18px/normal Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    margin: 0px 0px 18px; 
+    font-size-adjust: none; 
+    font-stretch: normal;
+}
+
+#subPlain h1 {
+	font: bold 18px/normal Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    margin: 0px 0px 18px; 
+    font-size-adjust: none; 
+    font-stretch: normal;
+}
+
+#subRight h2 {
+	font: bold 16px/normal Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    margin: 8px 0px 16px; 
+    font-size-adjust: none; 
+    font-stretch: normal;
+}
+
+#subPlain h2 {
+	font: bold 16px/normal Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    margin: 8px 0px 16px; 
+    font-size-adjust: none; 
+    font-stretch: normal;
+}
+
+#subRight h3 {
+	font: bold 15px/normal Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    margin: 20px 0px -12px; 
+    font-size-adjust: none; 
+    font-stretch: normal;
+}
+
+#subPlain h3 {
+	font: bold 15px/normal Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    margin: 20px 0px -12px; 
+    font-size-adjust: none; 
+    font-stretch: normal;
+}
+
+#subRight p {
+	font: 14px/138% Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    margin: 12px 0px; 
+    font-size-adjust: none; 
+    font-stretch: normal;
+}
+
+#subPlain p {
+	font: 14px/138% Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    margin: 12px 0px; 
+    font-size-adjust: none; 
+    font-stretch: normal;
+}
+
+#subRight p.caption {
+	color: rgb(153, 153, 153); 
+    line-height: 133%; 
+    font-style: italic;
+}
+
+#subPlain p.caption {
+	color: rgb(153, 153, 153); 
+    line-height: 133%; 
+    font-style: italic;
+}
+
+#subRight a {
+	font-style: italic;
+}
+
+#subPlain a {
+	font-style: italic;
+}
+
+#subRight h3 a {
+	font-style: normal;
+}
+
+#subPlain h3 a {
+	font-style: normal;
+}
+
+#subRight ul {
+	list-style-type: disc;
+}
+
+#subPlain ul {
+	list-style-type: disc;
+}
+
+div.errors ul {
+	list-style-type: disc;
+}
+
+#subRight ul li {
+	margin: 0px 20px;
+}
+
+#subPlain ul li {
+	margin: 0px 20px;
+}
+
+div.errors ul li {
+	margin: 0px 20px;
+}
+
+#subRight ul li a {
+	font-style: normal;
+}
+
+#subPlain ul li a {
+	font-style: normal;
+}
+
+#subRight ol li {
+	margin: 12px 0px 12px 35px; 
+    line-height: 138%;
+}
+
+#subPlain ol li {
+	margin: 12px 0px 12px 35px; 
+    line-height: 138%;
+}
+
+#subRight ol li:hover {
+	background: rgb(255, 255, 255);
+}
+
+#subPlain ol li:hover {
+	background: rgb(255, 255, 255);
+}
+
+.lineshadow {
+	background: url("../img/line-shadow.jpg") no-repeat top; 
+    height: 12px; 
+    border-top-color: rgb(255, 255, 255); 
+    border-top-width: 1px; 
+    border-top-style: solid;
+}
+
+.linedivider {
+	background: url("../img/line-shadow-small.jpg") no-repeat top; 
+    margin: 0px 0px 15px; 
+    height: 8px;
+}
+
+.breadcrumbcontent {
+	padding: 0px 0px 20px; 
+    color: rgb(51, 51, 51); 
+    font-family: Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    font-size: 14px; 
+    font-weight: bold;
+}
+
+.breadcrumbcontent a {
+	color: rgb(77, 138, 16);
+}
+
+.subHeaderLeft {
+	float: left;
+}
+
+.subHeaderLeft h1 {
+	font: bold 14px/normal Georgia, "Times New Roman", Times, serif normal !important; 
+    color: rgb(101, 101, 101) !important; 
+    font-size-adjust: none !important; 
+    font-stretch: normal !important;
+}
+
+.subHeaderRight {
+	margin: 2px 0px 0px 12px; 
+    float: right;
+}
+
+.subContent {
+	width: 100%; 
+    clear: both; 
+    float: left;
+}
+
+.subContentLeft {
+	width: 49%; 
+    clear: none; 
+    float: left;
+}
+
+.subContentLeft h1 {
+	font: bold 14px/normal Georgia, "Times New Roman", Times, serif normal !important; 
+    color: rgb(101, 101, 101) !important; 
+    font-size-adjust: none !important; 
+    font-stretch: normal !important;
+}
+
+.subContentRight {
+	width: 49%; 
+    clear: none; 
+    float: right;
+}
+
+.subContentFull {
+	width: 100%; 
+    clear: both; 
+    float: left;
+}
+
+.subContentSpacer {
+	margin: 10px 0px 0px; 
+    clear: both; 
+    display: block;
+}
+
+.helpIcon {
+	background-position: left top; 
+    padding-left: 16px; 
+    margin-left: 5px; 
+    background-image: url("../img/question-icon.gif"); 
+    background-repeat: no-repeat;
+}
+
+a.helpIcon {
+	text-decoration: none;
+}
+
+.backlogIcon {
+	background-position: left; 
+    padding-left: 16px; 
+    margin-right: 5px; 
+    background-image: url("../img/flag_red.png"); 
+    background-repeat: no-repeat;
+}
+
+.spinnerIcon {
+	background-position: left; 
+    padding-left: 16px; 
+    margin-right: 5px; 
+    background-image: url("../img/spinner.gif"); 
+    background-repeat: no-repeat;
+}
+
+.mailIcon {
+	background-position: left; 
+    padding-left: 16px; 
+    margin-right: 5px; 
+    background-image: url("../img/mail-16.png"); 
+    background-repeat: no-repeat;
+}
+
+a.historyIcon {
+	background-position: left; 
+    padding-left: 16px; 
+    text-decoration: none; 
+    margin-right: 5px; 
+    background-image: url("../img/history-16.png"); 
+    background-repeat: no-repeat;
+}
+
+img.ui-datepicker-trigger {
+	padding-left: 3px;
+}
+
+span.textCounter {
+	text-align: right; 
+    font-weight: lighter;
+}
+
+a.expanded {
+	background-position: left; 
+    padding: 2px 0px 2px 25px; 
+    text-decoration: none; 
+    background-image: url("../img/down-24.png"); 
+    background-repeat: no-repeat;
+}
+
+a.collapsed {
+	background-position: left; 
+    padding: 2px 0px 2px 25px; 
+    text-decoration: none; 
+    background-image: url("../img/right-24.png"); 
+    background-repeat: no-repeat;
+}
+
+a.findUserIcon {
+	background-position: left top; 
+    padding-left: 16px; 
+    text-decoration: none; 
+    margin-left: 5px; 
+    background-image: url("../img/person-16.png"); 
+    background-repeat: no-repeat;
+}
+
+a.editIcon {
+	background-position: left top; 
+    padding-left: 16px; 
+    text-decoration: none; 
+    margin-left: 5px; 
+    background-image: url("../img/edit-16.png"); 
+    background-repeat: no-repeat;
+}
+
+.clockIconSmall {
+	background-position: left top; 
+    padding-left: 16px; 
+    text-decoration: none; 
+    margin-right: 5px; 
+    background-image: url("../img/clock-16.png"); 
+    background-repeat: no-repeat;
+}
+
+.clockIcon {
+	background-position: left top; 
+    padding-bottom: 24px; 
+    padding-left: 24px; 
+    text-decoration: none; 
+    background-image: url("../img/clock-24.png"); 
+    background-repeat: no-repeat;
+}
+
+img.center {
+	margin-right: auto; 
+    margin-left: auto; 
+    display: block;
+}
+
+table {
+	background: rgb(255, 255, 255); 
+    border: 1px solid rgb(231, 231, 231); 
+    /*border-image: none;*/ 
+    border-collapse: collapse;
+}
+
+th {
+	background: rgb(255, 255, 255); 
+    border: 1px solid rgb(231, 231, 231); 
+    /*border-image: none;*/ 
+    border-collapse: collapse;
+}
+
+tr {
+	background: rgb(255, 255, 255); 
+    border: 1px solid rgb(231, 231, 231); 
+    /*border-image: none;*/ 
+    border-collapse: collapse;
+}
+
+td {
+	background: rgb(255, 255, 255); 
+    border: 1px solid rgb(231, 231, 231); 
+    /*border-image: none;*/ 
+    border-collapse: collapse;
+}
+
+th {
+	background-position: right; 
+    font: bold 12px/normal Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    padding: 5px; 
+    vertical-align: middle; 
+    font-size-adjust: none; 
+    font-stretch: normal; 
+    background-repeat: no-repeat; 
+    background-color: rgb(239, 242, 233);
+}
+
+td {
+	padding: 6px 6px 6px 12px;
+}
+
+tr.even td {
+	background: rgb(231, 231, 231);
+}
+
+tr.odd td {
+	background: rgb(255, 255, 255);
+}
+
+.blueTitle {
+	font: bold 16px/normal Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    font-size-adjust: none; 
+    font-stretch: normal;
+}
+
+.blueTitle p {
+	font: 13px/normal Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    font-size-adjust: none; 
+    font-stretch: normal;
+}
+
+table .hidden {
+	display: none;
+}
+
+table thead tr .sortable {
+	padding-right: 20px; 
+    background-image: url("../img/sort_off.gif");
+}
+
+table thead tr .order1 {
+	padding-right: 20px; 
+    background-image: url("../img/sort_down.gif"); 
+    background-color: rgb(219, 228, 207);
+}
+
+table thead tr .order2 {
+	padding-right: 20px; 
+    background-image: url("../img/sort_up.gif"); 
+    background-color: rgb(219, 228, 207);
+}
+
+.controls {
+	font: bold 14px/normal Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    margin: 0px 0px 18px; 
+    font-size-adjust: none; 
+    font-stretch: normal;
+}
+
+.resPagArea {
+	margin: 0px 0px 0px 12px; 
+    float: right;
+}
+
+.resPagNav {
+	margin: 0px; 
+    width: auto; 
+    float: left;
+}
+
+.resPagNum {
+	margin: 3px 3px 5px; 
+    padding: 0px 4px 0px 3px; 
+    border: 1px solid rgb(81, 162, 202); 
+    width: 15px; 
+    text-align: center; 
+    float: left;
+}
+
+span.resPagNum {
+	background: rgb(255, 255, 255); 
+    color: rgb(81, 162, 202);
+}
+
+a.resPagNum {
+	background: rgb(81, 162, 202); 
+    color: rgb(255, 255, 255); 
+    text-decoration: none;
+}
+
+a.resPagNum:hover {
+	color: rgb(81, 162, 202); 
+    text-decoration: none; 
+    background-color: rgb(255, 255, 255);
+}
+
+.resPagText {
+	font-family: Calibri, Arial, Helvetica, sans-serif; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-weight: bold;
+}
+
+#footer {
+	font: 14px/normal Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif normal; 
+    height: 55px; 
+    font-size-adjust: none; 
+    font-stretch: normal;
+}
+
+#footer a {
+	color: rgb(255, 255, 255); 
+    text-decoration: none;
+}
+
+#footer img {
+	padding: 0px 0px 0px 30px;
+}
+
+#footer span {
+	display: none;
+}
+
+#footerNav {
+	margin: -22px 0px 0px 150px;
+}
+
+#footerNav ul {
+	margin: 0px; 
+    display: block;
+}
+
+#footerNav ul li {
+	float: left; 
+    display: inline; 
+    list-style-type: none;
+}
+
+#footerNav ul li a {
+	padding: 0px 15px 0px 0px;
+}
+
+#footerNav ul li a:hover {
+	text-decoration: underline;
+}
+
+#disclaimer {
+	text-align: center; 
+    color: rgb(255, 255, 255); 
+    margin-right: auto; 
+    margin-left: auto;
+}
+
+div.quasiTextarea {
+	padding: 2px; 
+    border: 1px solid rgb(0, 0, 0); 
+    /*border-image: none;*/ 
+    min-height: 100px;
+}
+
+input.smallBtn {
+	background: url("../img/button_small_left_off.png") no-repeat; 
+    padding: 5px 20px; 
+    border: 0px currentColor; 
+    /*border-image: none;*/ 
+    height: 27px; 
+    color: rgb(255, 255, 255); 
+    font-family: Georgia; 
+    font-size: 11px; 
+    font-style: normal !important; 
+    font-weight: bold; 
+    text-decoration: none; 
+    margin-right: 6px; 
+    float: left; 
+    display: block;
+}
+
+input.smallBtn:hover {
+	background: url("../img/button_small_left_on.png") no-repeat right top;
+}
+
+a.smallBtn {
+	background: url("../img/button_small_right_off.png") no-repeat right top; 
+    height: 27px; 
+    color: rgb(255, 255, 255); 
+    padding-right: 20px; 
+    font-family: Georgia; 
+    font-size: 11px; 
+    font-style: normal !important; 
+    font-weight: bold; 
+    text-decoration: none; 
+    margin-right: 6px; 
+    float: left; 
+    display: block;
+}
+
+a.smallBtn:hover {
+	background: url("../img/button_small_right_on.png") no-repeat right top;
+}
+
+a.smallBtn span {
+	background: url("../img/button_small_left_off.png") no-repeat; 
+    padding: 5px 0px 5px 20px; 
+    line-height: 17px; 
+    display: block;
+}
+
+a.smallBtn:hover span {
+	background: url("../img/button_small_left_on.png") no-repeat;
+}
+
+a.largeBtn {
+	background: url("../images/button_large_off.png") no-repeat; 
+    padding: 8px 0px; 
+    width: 224px; 
+    height: 64px; 
+    color: rgb(255, 255, 255); 
+    font-family: Georgia; 
+    font-size: 20px; 
+    font-style: normal !important; 
+    font-weight: bold; 
+    text-decoration: none; 
+    display: block;
+}
+
+a.largeBtn:hover {
+	background: url("../images/button_large_on.png") no-repeat;
+}
+
+div.subtab {
+	margin-left: 5px;
+}
+
+div.subtabBorder {
+	clear: both; 
+    border-top-color: rgb(60, 83, 107); 
+    border-top-width: 1px; 
+    border-top-style: solid;
+}
+
+a.subtab {
+	background: url("../img/subtab_right_off.png") no-repeat right top; 
+    height: 25px; 
+    color: rgb(255, 255, 255); 
+    padding-right: 20px; 
+    font-family: Calibri; 
+    font-size: 14px; 
+    font-style: normal !important; 
+    text-decoration: none; 
+    margin-right: 1px; 
+    float: left; 
+    display: block;
+}
+
+a.subtab:hover {
+	background: url("../img/subtab_right_hover.png") no-repeat right top;
+}
+
+a.on.subtab {
+	background: url("../img/subtab_right_on.png") no-repeat right top; 
+    color: rgb(0, 0, 0);
+}
+
+a.subtab span {
+	background: url("../img/subtab_left_off.png") no-repeat; 
+    padding: 5px 0px 5px 20px; 
+    line-height: 16px; 
+    display: block;
+}
+
+a.subtab:hover span {
+	background: url("../img/subtab_left_hover.png") no-repeat;
+}
+
+a.on.subtab span {
+	background: url("../img/subtab_left_on.png") no-repeat;
+}
+
+fieldset {
+	padding: 10px; 
+    border: 1px solid rgb(0, 0, 0); 
+    /*border-image: none;*/ 
+    clear: both;
+}
+
+fieldset legend {
+	margin: 0px; 
+    padding: 0px 5px; 
+    color: rgb(0, 0, 0); 
+    font-size: 125%; 
+    font-weight: bold;
+}
+
+form {
+	margin: 0px; 
+    padding: 0px;
+}
+
+fieldset div.formitem {
+	padding: 3px 0px; 
+    clear: left; 
+    display: block;
+}
+
+div label span.required {
+	background-position: left top; 
+    padding-left: 15px; 
+    background-image: url("../img/required_alt.gif"); 
+    background-repeat: no-repeat;
+}
+
+span.explanation.required {
+	background-position: left top; 
+    padding-left: 15px; 
+    background-image: url("../img/required_alt.gif"); 
+    background-repeat: no-repeat;
+}
+
+span.explanation.required {
+	padding-left: 7px;
+}
+
+fieldset div.field {
+	padding: 0px 0px 0px 145px;
+}
+
+fieldset div.fieldindent {
+	padding: 0px 0px 0px 160px;
+}
+
+div label.labelCheckbox {
+	width: 500px; 
+    text-indent: -20px;
+}
+
+input {
+	font: bold 14px/normal Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    border: 1px solid rgb(218, 215, 215); 
+    /*border-image: none;*/ 
+    font-size-adjust: none; 
+    font-stretch: normal;
+}
+
+select {
+	font: bold 14px/normal Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    border: 1px solid rgb(218, 215, 215); 
+    /*border-image: none;*/ 
+    font-size-adjust: none; 
+    font-stretch: normal;
+}
+
+textarea {
+	font: bold 14px/normal Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    border: 1px solid rgb(218, 215, 215); 
+    /*border-image: none;*/ 
+    font-size-adjust: none; 
+    font-stretch: normal;
+}
+
+input[type=checkbox] {
+	border: currentColor; 
+    /*border-image: none;*/
+}
+
+input[type=radio] {
+	border: currentColor; 
+    /*border-image: none;*/
+}
+
+input[type=password] {
+	font-family: Arial;
+}
+
+textarea {
+	/*resize: none;*/
+}
+
+input[readonly].disabled {
+	color: rgb(128, 128, 128); 
+    background-color: rgb(212, 208, 200);
+}
+
+input[readonly].clickable.disabled {
+	cursor: pointer;
+}
+
+input[readonly].clickable.disabled {
+	cursor: pointer;
+}
+
+input.error {
+	background-color: rgb(255, 186, 186);
+}
+
+select.error {
+	background-color: rgb(255, 186, 186);
+}
+
+textarea.error {
+	background-color: rgb(255, 186, 186);
+}
+
+input[readonly].error.disabled {
+	background-color: rgb(255, 186, 186);
+}
+
+select[readonly].error.disabled {
+	background-color: rgb(255, 186, 186);
+}
+
+textarea[readonly].error.disabled {
+	background-color: rgb(255, 186, 186);
+}
+
+div label {
+	padding: 0px 8px 3px 0px; 
+    width: 135px; 
+    text-align: right; 
+    float: left; 
+    display: block;
+}
+
+div label.tight {
+	width: 105px;
+}
+
+div label.wide {
+	width: 400px;
+}
+
+div label.looseleft {
+	width: 205px; 
+    text-align: left;
+}
+
+div label.left {
+	text-align: left;
+}
+
+div label.header {
+	font: bold 12px/normal Georgia, "Times New Roman", Times, serif normal; 
+    padding: 0px 8px 3px 0px; 
+    width: 130px; 
+    text-align: right; 
+    color: rgb(101, 101, 101); 
+    float: left; 
+    display: block; 
+    font-size-adjust: none; 
+    font-stretch: normal;
+}
+
+#workflowImage {
+	font: bold 14px/normal Calibri; 
+    margin: 0px auto 20px 115px; 
+    height: 50px; 
+    text-align: center; 
+    clear: both; 
+    float: left; 
+    font-size-adjust: none; 
+    font-stretch: normal;
+}
+
+#workflowImage div.workflowStep {
+	float: left; 
+    display: table-row;
+}
+
+#workflowImage div.workflowStep div.active.circle {
+	background: url("../img/step_dot_active.png") no-repeat top; 
+    color: rgb(255, 255, 255);
+}
+
+#workflowImage div.workflowStep div.complete.circle {
+	background: url("../img/step_dot_complete.png") no-repeat top; 
+    color: rgb(0, 0, 0);
+}
+
+#workflowImage div.workflowStep div.future.circle {
+	background: url("../img/step_dot_future.png") no-repeat top; 
+    color: rgb(0, 0, 0);
+}
+
+#workflowImage div.workflowStep div.circle {
+	width: 80px; 
+    height: 31px; 
+    text-align: center; 
+    font-size: 12pt; 
+    font-weight: normal; 
+    vertical-align: middle; 
+    display: table-cell;
+}
+
+#workflowImage div.workflowStep div.stepName {
+	width: 80px; 
+    text-align: center; 
+    font-weight: normal; 
+    margin-top: 10px;
+}
+
+#workflowImage div.spacer {
+	background: url("../img/step_spacer_grey.gif"); 
+    width: 70px; 
+    height: 3px; 
+    margin-top: 14px; 
+    margin-right: -25px; 
+    margin-left: -25px; 
+    float: left;
+}
+
+div.alert {
+	background: rgb(248, 248, 248); 
+    margin: 10px 30px; 
+    padding: 15px; 
+    border: 3px solid rgb(204, 204, 204); 
+    /*border-image: none;*/ 
+    width: auto; 
+    color: rgb(51, 51, 51);
+}
+
+div.errors {
+	padding: 5px; 
+    border: 2px solid rgb(191, 122, 122); 
+    /*border-image: none;*/ 
+    margin-bottom: 10px; 
+    background-color: rgb(255, 186, 186);
+}
+
+div.outageBanner {
+	padding: 5px; 
+    border: 2px solid rgb(191, 122, 122); 
+    /*border-image: none;*/ 
+    text-align: center; 
+    background-color: rgb(255, 186, 186);
+}
+
+div.messages {
+	padding: 5px; 
+    border: 2px solid rgb(159, 178, 127); 
+    /*border-image: none;*/ 
+    margin-bottom: 10px; 
+    background-color: rgb(223, 242, 191);
+}
+
+div.errors ul {
+	margin-bottom: 0px;
+}
+
+div.messages ul {
+	margin-bottom: 0px;
+}
+
+div.errors a {
+	text-decoration: underline;
+}
+
+div.messages a {
+	text-decoration: underline;
+}
+
+#sliderLeft {
+	width: 660px; 
+    height: 390px; 
+    padding-left: 28px; 
+    float: left;
+}
+
+#sliderRight {
+	padding: 10px; 
+    width: 224px; 
+    height: 370px; 
+    color: rgb(255, 255, 255); 
+    float: left; 
+    position: relative; 
+    z-index: 1000; 
+    background-color: rgb(106, 130, 158);
+}
+
+#slider li {
+	margin: 0px; 
+    padding: 0px; 
+    width: 660px; 
+    height: 390px; 
+    position: relative;
+}
+
+#slider li p {
+	background: url("../img/anythingslider/white-dot.png"); 
+    margin: 0px; 
+    padding: 10px; 
+    left: 0px; 
+    width: 640px; 
+    bottom: 0px; 
+    font-weight: bold; 
+    position: absolute;
+}
+
+div.exportlinks {
+	margin-top: 5px;
+}
+
+#alphabet ul {
+	margin: 0px; 
+    display: block;
+}
+
+#alphabet ul li {
+	margin: 0px; 
+    padding: 0px; 
+    float: left; 
+    display: inline; 
+    list-style-type: none;
+}
+
+#alphabet ul li a {
+	background: url("../img/subnav-bg.jpg") repeat-x; 
+    padding: 4px 7px; 
+    border: 1px solid rgb(204, 204, 204); 
+    /*border-image: none;*/ 
+    color: rgb(101, 101, 101); 
+    display: block;
+}
+
+.foiaTitle {
+	padding-top: 10px; 
+    float: left;
+}
+
+a.agencyTable {
+	font-style: normal !important; 
+    text-decoration: underline;
+}
+
+#printPageLink {
+	background-position: left top; 
+    padding-top: 4px; 
+    padding-bottom: 24px; 
+    padding-left: 30px; 
+    background-image: url("../img/printer-24.png"); 
+    background-repeat: no-repeat;
+}
+

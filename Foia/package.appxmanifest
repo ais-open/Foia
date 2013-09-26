@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="44450AisDev.FoiaInternal" Version="1.1.0.0" Publisher="CN=715B205A-7A97-4D05-A5EC-9E5120A61C69" />
+  <Properties>
+    <DisplayName>Foia Internal</DisplayName>
+    <PublisherDisplayName>Ais Dev</PublisherDisplayName>
+    <Logo>images\myFOIA-storelogo.jpg</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <m2:VisualElements DisplayName="foia" Description="Freedom Of Information Act" ForegroundText="light" BackgroundColor="#464646" Square150x150Logo="images\myFOIA-150x150.jpg" Square30x30Logo="images\myFOIA-30x30.jpg" ToastCapable="true">
+        <m2:DefaultTile Square310x310Logo="images\myFOIA-310x310.jpg" Wide310x150Logo="images\myFOIA-310x150.jpg" Square70x70Logo="images\myFOIA-70x70.jpg">
+          <m2:ShowNameOnTiles>
+            <m2:ShowOn Tile="square150x150Logo" />
+            <m2:ShowOn Tile="wide310x150Logo" />
+            <m2:ShowOn Tile="square310x310Logo" />
+          </m2:ShowNameOnTiles>
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="images\myFOIA-splashscreen.jpg" BackgroundColor="#FFFFFF" />
+      </m2:VisualElements>
+      <ApplicationContentUriRules>
+        <Rule Match="https://foiaonline.regulations.gov/" Type="include" />
+      </ApplicationContentUriRules>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

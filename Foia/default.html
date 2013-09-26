@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Foia</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.2.0.Preview/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0.Preview/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0.Preview/js/ui.js"></script>
+
+    <!-- Foia references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/MobileServices.min.js"></script>
+    <!--<script src="/js/MobileServices.intellisense.js"></script>-->
+    <script src="/js/Utility.js"></script>
+    <script src="/js/NotificationHub.js"></script>
+    <script src="/js/default.js"></script>
+</head>
+<body>
+    <div id="main">
+        <div id="content">
+            <div id="progressBar">
+                <progress id="progressBarIndeterminate"></progress>
+            </div>
+            <x-ms-webview id="foiaWebview" class="fullPageWebview" style="width: 100%; height: 735px;" ></x-ms-webview>
+        </div>
+    </div>
+    <div id="mainAppBar" data-win-control="WinJS.UI.AppBar" data-win-options="">
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdTweet',label:'Tweet',icon:'url(images/twitter.png)',section:'global',tooltip:'Tweet selected text'}"></button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdShare',label:'Share',icon:'reshare',section:'global',tooltip:'Share selected text'}"></button>
+        <hr data-win-control="WinJS.UI.AppBarCommand" data-win-options="{type:'separator',section:'global'}" />
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdHome',label:'Home',icon:'home',section:'global',tooltip:'Navigate to Home'}"></button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdBack',label:'Back',icon:'back',section:'global',tooltip:'Navigate back'}"></button>
+    </div>
+</body>
+</html>

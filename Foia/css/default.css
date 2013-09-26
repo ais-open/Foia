@@ -1,0 +1,27 @@
+﻿html { 
+}
+
+body {
+    background: rgb(18, 27, 38) !important;
+}
+
+#main {
+    /*margin: 30px 30px 30px 30px;*/
+}
+
+#msg {
+    font: 14px/normal Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif normal; 
+    color:#ff0000;
+    margin-left: 20px;
+}
+
+#progressBar{
+    width:100%;
+    text-align:center;
+    vertical-align:bottom;color:white;display:none;
+}
+
+#progressBarIndeterminate{
+    width:100%;
+    color:white;
+}
